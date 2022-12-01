@@ -1,0 +1,39 @@
+body { 
+    background-color: rgb(249, 238, 231);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(128, 43, 0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(235, 142, 50);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(0, 0, 0);
+  }
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
